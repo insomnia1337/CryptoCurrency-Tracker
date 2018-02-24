@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from './components/Header/Header';
-import SearchBar from './components/SearchBar/SearchBar';
+import Coin from './components/CoinList/Coin/Coin';
+import './styles/bootstrap-grid.css'
 
 class App extends Component {
   render() {
     return (
       <div>
        <Header />
-       
+       <Coin />
       </div>
     );
   }

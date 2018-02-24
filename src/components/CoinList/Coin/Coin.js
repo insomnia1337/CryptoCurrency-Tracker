@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import './Coins.css';
+import React from 'react';
+import './Coin.css';
 
-class Coin extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-      </div>
-    );
-  }
-}
+const Coin = () => (
+    <div>
+        Bitcoin
+        <ul>
+            <li>Acronym: BTC</li>
+            <li>Current value: 8.800 $</li>
+            <li>Market cap: 2,3 mld</li>
+        </ul>
+    </div>
+)
 
 export default Coin;
